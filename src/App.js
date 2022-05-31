@@ -16,7 +16,7 @@ function App() {
     const averagePrice =
       (_oldPrice * _oldAmount + _newPrice * _newAmount) / (_oldAmount + _newAmount);
 
-    return (averagePrice || 0).toFixed(2);
+    return (averagePrice || 0).toFixed(4);
   };
 
   const getAverageAmount = () => {
