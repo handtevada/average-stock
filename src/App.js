@@ -28,13 +28,13 @@ function App() {
       <div className="flex flex-row items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          class="h-24 w-24 text-teal-700"
+          className="h-24 w-24 text-teal-700"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
-          stroke-width="2"
+          strokeWidth="2"
         >
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
         </svg>
         <h1 className="text-4xl font-bold text-teal-700">Average Stock</h1>
       </div>
